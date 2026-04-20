@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基本法與香港國安法問答測驗</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #0056b3;
+            margin-bottom: 30px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .card {
+            background-color: #fff;
+            border-left: 5px solid #0056b3;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .question {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 8px;
+            padding: 8px;
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+        }
+        .answer {
+            display: none;
+            margin-top: 15px;
+            padding-top: 10px;
+            border-top: 1px dashed #ccc;
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .citation {
+            font-size: 0.85em;
+            color: #888;
+            font-weight: normal;
+        }
+        .explanation {
+            display: none;
+            margin-top: 10px;
+            padding: 10px 14px;
+            background-color: #eef6ff;
+            border-left: 4px solid #0056b3;
+            border-radius: 4px;
+            font-size: 0.95em;
+            color: #1a3a5c;
+            line-height: 1.7;
+        }
+        .explanation::before {
+            content: "📖 解釋";
+            display: block;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #0056b3;
+        }
+        /* Interactive option styles */
+        .options li {
+            cursor: pointer;
+            transition: background-color 0.15s, border-color 0.15s;
+            user-select: none;
+        }
+        .options li:hover:not(.disabled) {
+            background-color: #e8f0fe;
+            border-color: #0056b3;
+        }
+        .options li.correct {
+            background-color: #d4edda;
+            border-color: #28a745;
+            color: #155724;
+            font-weight: bold;
+        }
+        .options li.wrong {
+            background-color: #f8d7da;
+            border-color: #dc3545;
+            color: #721c24;
+        }
+        .options li.disabled {
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>基本法與香港國安法 Q Card (100Q-)</h1>
+
+    <!-- Q1 -->
+    <div class="card">
+        <div class="question">Q-(1) : 根據《中華人民共和國香港特別行政區基本法》第一百五十八條，香港特別行政區法院在審理案件時可對《中華人民共和國香港特別行政區基本法》關於香港特別行政區自治範圍內的條款自行解釋是基於________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 香港特別行政區法院的固有管轄權</li>
+            <li>B 香港特別行政區法院的普通法權力</li>
+            <li>C 全國人民代表大會常務委員會的授權</li>
+            <li>D 中央人民政府的授權</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第158條：全國人民代表大會常務委員會授權香港特別行政區法院在審理案件時，可對本法關於香港自治範圍內的條款自行解釋。故此，香港法院的釋法權源自全國人大常委會的授權，而非法院的固有管轄權或普通法權力。</div>
+    </div>
+
+    <!-- Q2 -->
+    <div class="card">
+        <div class="question">Q-(2) : 根據《中華人民共和國香港特別行政區基本法》第三條，香港特別行政區的行政機關和立法機關由_________依照《中華人民共和國香港特別行政區基本法》有關規定組成。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 香港永久性居民</li>
+            <li>B 香港非永久性居民</li>
+            <li>C 香港永久性居民及香港非永久性居民</li>
+            <li>D 中國公民</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第3條：香港特別行政區的行政機關和立法機關由香港永久性居民依照本法有關規定組成。注意是「永久性居民」，而非所有香港居民或中國公民。</div>
+    </div>
+
+    <!-- Q3 -->
+    <div class="card">
+        <div class="question">Q-(3) : 以下哪一項有關香港居民的自由和權利不是《中華人民共和國香港特別行政區基本法》明文規定受法律保護？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 婚姻自由</li>
+            <li>B 自願生育的權利</li>
+            <li>C 資助房屋的權利</li>
+            <li>D 勞工的福利待遇</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法明文保障婚姻自由（第37條）、自願生育的權利（第37條）及勞工的福利待遇（第39條），但並無明文規定「資助房屋的權利」為受法律保護的憲制權利，故選C。</div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="card">
+        <div class="question">Q-(4) : 根據《中華人民共和國香港特別行政區基本法》第六十三條，主管刑事檢察工作的是___________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 警務處</li>
+            <li>B 廉政公署</li>
+            <li>C 律政司</li>
+            <li>D 以上皆是</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第63條：香港特別行政區律政司主管刑事檢察工作，不受任何干涉。警務處負責執法調查，廉政公署負責防貪調查，刑事檢察工作則由律政司主管。</div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="card">
+        <div class="question">Q-(5) : 根據《中華人民共和國香港特別行政區基本法》第一百二十五條，香港特別行政區經中央人民政府授權繼續進行船舶登記，並根據香港特別行政區的法律以甚麼名義頒發有關證件？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 中國香港</li>
+            <li>B 中國</li>
+            <li>C 香港特別行政區</li>
+            <li>D 香港船舶註冊區</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第125條：香港特別行政區經中央人民政府授權繼續進行船舶登記，並根據香港特別行政區的法律以「中國香港」名義頒發有關證件。</div>
+    </div>
+
+    <!-- Q6 -->
+    <div class="card">
+        <div class="question">Q-(6) : 根據《中華人民共和國香港特別行政區基本法》第一百五十八條，下列何者是不正確的？<br>（i） 全國人民代表大會常務委員會有權對《中華人民共和國香港特別行政區基本法》的任何條款進行解釋<br>（ii） 如香港特別行政區法院沒有提請全國人民代表大會常務委員會對《中華人民共和國香港特別行政區基本法》的條款進行解釋，全國人民代表大會常務委員會不可對《中華人民共和國香港特別行政區基本法》進行解釋<br>（iii） 全國人民代表大會常務委員會在對《中華人民共和國香港特別行政區基本法》進行解釋前，徵詢香港特別行政區基本法委員會的意見<span class="citation"></span></div>
+        <ul class="options">
+            <li>A （i）</li>
+            <li>B （ii）</li>
+            <li>C （i），（ii）</li>
+            <li>D 以上皆是</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第158條第2款：全國人民代表大會常務委員會可主動就基本法任何條款作出解釋，不須由香港法院提請。說法（ii）錯誤，故B是不正確的陳述。（i）及（iii）均正確。</div>
+    </div>
+
+    <!-- Q7 -->
+    <div class="card">
+        <div class="question">Q-(7) : 根據《中華人民共和國香港特別行政區基本法》附件一及附件二，香港特別行政區候選人資格審查委員會負責審查並確認以下哪些候選人的資格?<br>（i） 行政長官候選人<br>（ii） 選舉委員會候選人<br>（iii） 立法會議員候選人<br>（iv） 區議會議員候選人<span class="citation"></span></div>
+        <ul class="options">
+            <li>A （i），（ii）</li>
+            <li>B （i），（iii），（iv）</li>
+            <li>C （i），（ii），（iii）</li>
+            <li>D 以上皆是</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法附件一及附件二（完善選舉制度後）：候選人資格審查委員會負責審查行政長官候選人（i）、選舉委員會候選人（ii）及立法會議員候選人（iii）的資格，但不包括區議會議員候選人（iv），故選C。</div>
+    </div>
+
+    <!-- Q8 -->
+    <div class="card">
+        <div class="question">Q-(8) : 以下哪一選項最準確描述制定《中華人民共和國香港特別行政區維護國家安全法》的法律依據？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 《中華人民共和國憲法》和《中華人民共和國香港特別行政區基本法》</li>
+            <li>B 《中華人民共和國憲法》、《中華人民共和國香港特別行政區基本法》和《全國人民代表大會關於建立健全香港特別行政區維護國家安全的法律制度和執行機制的決定》</li>
+            <li>C 《中華人民共和國憲法》、《中華人民共和國香港特別行政區基本法》和《中華人民共和國刑法》</li>
+            <li>D 《全國人民代表大會關於建立健全香港特別行政區維護國家安全的法律制度和執行機制的決定》、《中華人民共和國刑法》和《中華人民共和國國家安全法》</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第1條：本法根據中華人民共和國憲法、中華人民共和國香港特別行政區基本法，以及全國人民代表大會關於建立健全香港特別行政區維護國家安全的法律制度和執行機制的決定而制定，三者缺一不可。</div>
+    </div>
+
+    <!-- Q9 -->
+    <div class="card">
+        <div class="question">Q-(9) : 根據《中華人民共和國香港特別行政區維護國家安全法》第二條，香港特別行政區任何機構、組織和個人在行使權利和自由時，___________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 不可基於客觀事實批評香港特區政府的政策</li>
+            <li>B 不受任何限制或約束</li>
+            <li>C 不得違背有關香港特別行政區是中華人民共和國不可分離的部分的規定</li>
+            <li>D 不必尊重他人權利和自由</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">國安法第2條：關於香港特別行政區法律地位的基本法第1條（香港是中國不可分離的部分）和第12條（直轄於中央人民政府的地方行政區域）是根本性條款，任何機構、組織和個人行使權利和自由，均不得違背。</div>
+    </div>
+
+    <!-- Q10 -->
+    <div class="card">
+        <div class="question">Q-(10) : 以下哪一項不是香港特別行政區維護國家安全委員會根據《中華人民共和國香港特別行政區維護國家安全法》第十四條承擔的職責？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 就危害國家安全案件提出檢控</li>
+            <li>B 推進香港特別行政區維護國家安全的法律制度和執行機制建設</li>
+            <li>C 分析研判香港特別行政區維護國家安全形勢</li>
+            <li>D 協調香港特別行政區維護國家安全的重點工作</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">國安法第14條列明委員會的職責包括：（一）分析研判形勢；（二）推進法律制度和執行機制建設；（三）協調重點工作和重大行動。就危害國家安全案件提出檢控屬律政司（第18條）職責，並非委員會職責，故選A。</div>
+    </div>
+
+    <!-- Q11 -->
+    <div class="card">
+        <div class="question">Q-(11) : 根據《中華人民共和國香港特別行政區基本法》第五條，香港特別行政區不實行社會主義制度和政策，保持原有的資本主義制度和生活方式，多少年不變？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 30年</li>
+            <li>B 40年</li>
+            <li>C 50年</li>
+            <li>D 60年</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第5條：香港特別行政區不實行社會主義制度和政策，保持原有的資本主義制度和生活方式，五十年不變（即由1997年至2047年）。</div>
+    </div>
+
+    <!-- Q12 -->
+    <div class="card">
+        <div class="question">Q-(12) : 根據《中華人民共和國香港特別行政區基本法》第七條，香港特別行政區境內的土地和自然資源屬於誰所有？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 香港特別行政區政府</li>
+            <li>B 香港永久性居民</li>
+            <li>C 國家</li>
+            <li>D 英國政府</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第7條：香港特別行政區境內的土地和自然資源屬於國家所有，由香港特別行政區政府負責管理、使用、開發、出租或批給個人、法人或團體使用或開發，其收入全歸香港特別行政區政府支配。</div>
+    </div>
+
+    <!-- Q13 -->
+    <div class="card">
+        <div class="question">Q-(13) : 根據《中華人民共和國香港特別行政區基本法》第十三條，誰負責管理與香港特別行政區有關的外交事務？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 香港特別行政區政府</li>
+            <li>B 中央人民政府</li>
+            <li>C 外交部駐港特派員公署</li>
+            <li>D 國家安全委員會</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第13條：中央人民政府負責管理與香港特別行政區有關的外交事務。外交部在香港設立機構處理外交事務，但管理權屬於中央人民政府。</div>
+    </div>
+
+    <!-- Q14 -->
+    <div class="card">
+        <div class="question">Q-(14) : 根據《中華人民共和國香港特別行政區基本法》第十四條，中央人民政府派駐香港特別行政區負責防務的軍隊不干預地方事務，但香港特別行政區政府在必要時，可向中央人民政府請求駐軍協助什麼工作？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 維持社會治安和救助災害</li>
+            <li>B 負責海關檢查</li>
+            <li>C 管理出入境事務</li>
+            <li>D 處理外交談判</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第14條：中央人民政府派駐香港的軍隊不干預地方事務，但香港特別行政區政府在必要時，可向中央人民政府請求駐軍協助維持社會治安和救助災害。</div>
+    </div>
+
+    <!-- Q15 -->
+    <div class="card">
+        <div class="question">Q-(15) : 根據《中華人民共和國香港特別行政區基本法》第十八條，全國性法律除列於《基本法》附件幾者外，不在香港特別行政區實施？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 附件一</li>
+            <li>B 附件二</li>
+            <li>C 附件三</li>
+            <li>D 附件四</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第18條：列於本法附件三的全國性法律，由香港特別行政區在當地公布或立法實施。除附件三所列法律外，全國性法律不在香港特別行政區實施。</div>
+    </div>
+
+    <!-- Q16 -->
+    <div class="card">
+        <div class="question">Q-(16) : 根據《中華人民共和國香港特別行政區基本法》第二十三條，香港特別行政區應自行立法禁止哪些行為？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 任何叛國、分裂國家、煽動叛亂、顛覆中央人民政府的行為</li>
+            <li>B 竊取國家機密的行為</li>
+            <li>C 禁止外國政治性組織在港進行政治活動及建立聯繫</li>
+            <li>D 以上皆是</li>
+        </ul>
+        <div class="answer">答案: D</div>
+        <div class="explanation">基本法第23條：香港特別行政區應自行立法禁止的行為包括：（一）任何叛國、分裂國家、煽動叛亂、顛覆中央人民政府的行為；（二）竊取國家機密；（三）禁止外國政治性組織在港進行政治活動及建立聯繫，以上皆是，故選D。</div>
+    </div>
+
+    <!-- Q17 -->
+    <div class="card">
+        <div class="question">Q-(17) : 根據《中華人民共和國香港特別行政區基本法》第八十七條，任何人在被合法拘捕後，享有盡早接受司法機關公正審判的權利，未經司法機關判罪之前均假定為何？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 有罪</li>
+            <li>B 無罪</li>
+            <li>C 嫌疑人</li>
+            <li>D 罪犯</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第87條確立無罪推定原則：任何人在被合法拘捕後，享有盡早接受司法機關公正審判的權利，未經司法機關判罪之前均假定無罪。</div>
+    </div>
+
+    <!-- Q18 -->
+    <div class="card">
+        <div class="question">Q-(18) : 根據《中華人民共和國香港特別行政區基本法》第四十六條，香港特別行政區行政長官的任期為多少年？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 三年</li>
+            <li>B 四年</li>
+            <li>C 五年</li>
+            <li>D 六年</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第46條：香港特別行政區行政長官任期五年，可連任一次。</div>
+    </div>
+
+    <!-- Q19 -->
+    <div class="card">
+        <div class="question">Q-(19) : 根據《中華人民共和國香港特別行政區基本法》第五十三條，行政長官短期不能履行職務時，由誰依次臨時代理其職務？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 政務司長、財政司長、律政司長</li>
+            <li>B 財政司長、政務司長、律政司長</li>
+            <li>C 律政司長、政務司長、財政司長</li>
+            <li>D 立法會主席、終審法院首席法官</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第53條：行政長官短期不能履行職務時，由政務司長、財政司長、律政司長按此順序依次臨時代理其職務。</div>
+    </div>
+
+    <!-- Q20 -->
+    <div class="card">
+        <div class="question">Q-(20) : 根據《中華人民共和國香港特別行政區基本法》第五十七條，香港特別行政區設立廉政公署，獨立工作，對誰負責？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 警務處處長</li>
+            <li>B 立法會</li>
+            <li>C 政務司長</li>
+            <li>D 行政長官</li>
+        </ul>
+        <div class="answer">答案: D</div>
+        <div class="explanation">基本法第57條：香港特別行政區設立廉政公署，獨立工作，對行政長官負責。廉政公署不向警務處或立法會負責。</div>
+    </div>
+
+    <!-- Q21 -->
+    <div class="card">
+        <div class="question">Q-(21) : 根據《中華人民共和國香港特別行政區基本法》第五十八條，香港特別行政區設立審計署，獨立工作，對誰負責？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 財政司長</li>
+            <li>B 行政長官</li>
+            <li>C 立法會</li>
+            <li>D 終審法院</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第58條：香港特別行政區設立審計署，獨立工作，對行政長官負責。審計署與廉政公署同樣對行政長官負責，而非對財政司長或立法會負責。</div>
+    </div>
+
+    <!-- Q22 -->
+    <div class="card">
+        <div class="question">Q-(22) : 根據《中華人民共和國香港特別行政區基本法》第六十九條，香港特別行政區立法會除第一屆任期為兩年外，每屆任期為多少年？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 三年</li>
+            <li>B 四年</li>
+            <li>C 五年</li>
+            <li>D 六年</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第69條：香港特別行政區立法會除第一屆任期為兩年外，每屆任期四年。</div>
+    </div>
+
+    <!-- Q23 -->
+    <div class="card">
+        <div class="question">Q-(23) : 根據《中華人民共和國香港特別行政區基本法》第七十五條，香港特別行政區立法會舉行會議的法定人數為不少於全體議員的多少？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 三分之一</li>
+            <li>B 二分之一</li>
+            <li>C 三分之二</li>
+            <li>D 四分之三</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第75條：香港特別行政區立法會舉行會議的法定人數為不少於全體議員的二分之一。</div>
+    </div>
+
+    <!-- Q24 -->
+    <div class="card">
+        <div class="question">Q-(24) : 根據《中華人民共和國香港特別行政區基本法》第八十二條，香港特別行政區的終審權屬於哪個機構？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 高等法院</li>
+            <li>B 終審法院</li>
+            <li>C 全國人大常委會</li>
+            <li>D 行政長官</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第82條：香港特別行政區的終審權屬於香港特別行政區終審法院。香港可邀請其他普通法適用地區的法官參加審判，不須上訴至北京。</div>
+    </div>
+
+    <!-- Q25 -->
+    <div class="card">
+        <div class="question">Q-(25) : 根據《中華人民共和國香港特別行政區基本法》第八十八條，香港特別行政區法院的法官，根據獨立委員會推薦，由誰任命？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 終審法院首席法官</li>
+            <li>B 行政長官</li>
+            <li>C 律政司司長</li>
+            <li>D 立法會</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第88條：香港特別行政區法院的法官，根據當地法官和法律界及其他方面知名人士組成的獨立委員會推薦，由行政長官任命。</div>
+    </div>
+
+    <!-- Q26 -->
+    <div class="card">
+        <div class="question">Q-(26) : 根據《中華人民共和國香港特別行政區基本法》第九十九條，在香港特別行政區政府各部門任職的公務人員必須是？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 中國公民</li>
+            <li>B 香港特別行政區永久性居民</li>
+            <li>C 香港居民</li>
+            <li>D 任何國籍人士皆可</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第99條：在香港特別行政區政府各部門任職的公務人員必須是香港特別行政區永久性居民。本條以下規定主要官員（局長級）另有更嚴格要求，須為中國公民。</div>
+    </div>
+
+    <!-- Q27 -->
+    <div class="card">
+        <div class="question">Q-(27) : 根據《中華人民共和國香港特別行政區基本法》第一百零四條，行政長官、主要官員、行政會議成員、立法會議員、各級法院法官等在就職時必須依法宣誓擁護什麼？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 中華人民共和國</li>
+            <li>B 中華人民共和國香港特別行政區基本法</li>
+            <li>C 香港市民</li>
+            <li>D 國家主席</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第104條：行政長官、主要官員、行政會議成員、立法會議員、各級法院法官等在就職時必須依法宣誓擁護中華人民共和國香港特別行政區基本法，效忠中華人民共和國香港特別行政區。</div>
+    </div>
+
+    <!-- Q28 -->
+    <div class="card">
+        <div class="question">Q-(28) : 根據《中華人民共和國香港特別行政區基本法》第一百零六條，香港特別行政區的財政收入如何處理？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 上繳中央人民政府</li>
+            <li>B 一半上繳中央</li>
+            <li>C 全部用於自身需要，不上繳中央</li>
+            <li>D 交由外匯基金管理</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第106條：香港特別行政區的財政收入全部用於自身需要，不上繳中央人民政府。中央人民政府不在香港特別行政區徵稅，香港財政獨立自主。</div>
+    </div>
+
+    <!-- Q29 -->
+    <div class="card">
+        <div class="question">Q-(29) : 根據《中華人民共和國香港特別行政區基本法》第一百一十一條，港元的發行權屬於誰？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 中央人民政府</li>
+            <li>B 中國人民銀行</li>
+            <li>C 香港特別行政區政府</li>
+            <li>D 財政司</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第111條：港元為香港特別行政區法定貨幣，繼續流通。港幣的發行權屬於香港特別行政區政府，政府授權指定銀行發行港幣。</div>
+    </div>
+
+    <!-- Q30 -->
+    <div class="card">
+        <div class="question">Q-(30) : 根據《中華人民共和國香港特別行政區基本法》第一百一十二條，香港特別行政區不實行什麼政策？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 自由貿易政策</li>
+            <li>B 低稅政策</li>
+            <li>C 外匯管制政策</li>
+            <li>D 自由港政策</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第112條：香港特別行政區不實行外匯管制政策。港幣自由兌換，資金可自由流動進出香港。</div>
+    </div>
+
+    <!-- Q31 -->
+    <div class="card">
+        <div class="question">Q-(31) : 根據《中華人民共和國香港特別行政區基本法》第一百一十三條，香港特別行政區的外匯基金由誰管理和支配？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 財政司</li>
+            <li>B 香港金融管理局</li>
+            <li>C 中央人民政府</li>
+            <li>D 香港特別行政區政府</li>
+        </ul>
+        <div class="answer">答案: D</div>
+        <div class="explanation">基本法第113條：香港特別行政區的外匯基金，由香港特別行政區政府管理和支配，主要用於調節港元匯價。</div>
+    </div>
+
+    <!-- Q32 -->
+    <div class="card">
+        <div class="question">Q-(32) : 根據《中華人民共和國香港特別行政區基本法》第一百五十一條，香港特別行政區可以以什麼名義單獨地同世界各國、各地區保持和發展關係？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 香港</li>
+            <li>B 中國香港</li>
+            <li>C 香港特別行政區</li>
+            <li>D 中華香港</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第151條：香港特別行政區可以「中國香港」的名義，單獨地同世界各國、各地區及有關國際組織保持和發展關係，簽訂和履行有關協議。</div>
+    </div>
+
+    <!-- Q33 -->
+    <div class="card">
+        <div class="question">Q-(33) : 根據《中華人民共和國香港特別行政區基本法》第一百五十八條，《基本法》的解釋權屬於？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 香港特別行政區終審法院</li>
+            <li>B 全國人民代表大會</li>
+            <li>C 全國人民代表大會常務委員會</li>
+            <li>D 國務院</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第158條：本法的解釋權屬於全國人民代表大會常務委員會。全國人大常委會授權香港特別行政區法院在審理案件時，就自治範圍內條款自行解釋，但最終解釋權屬於全國人大常委會。</div>
+    </div>
+
+    <!-- Q34 -->
+    <div class="card">
+        <div class="question">Q-(34) : 根據《中華人民共和國香港特別行政區基本法》第一百五十九條，《基本法》的修改權屬於？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 全國人民代表大會</li>
+            <li>B 全國人民代表大會常務委員會</li>
+            <li>C 國務院</li>
+            <li>D 香港特別行政區立法會</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第159條：本法的修改權屬於全國人民代表大會。香港特別行政區立法機關只可提出修改議案，但修改法案須由全國人大通過。</div>
+    </div>
+
+    <!-- Q35 -->
+    <div class="card">
+        <div class="question">Q-(35) : 根據全國人大常委會關於完善香港特別行政區選舉制度的決定，選舉委員會由多少名委員組成？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 800名</li>
+            <li>B 1200名</li>
+            <li>C 1500名</li>
+            <li>D 1800名</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">根據2021年完善選舉制度後，選舉委員會由原來1,200名委員擴大至1,500名委員，分為五大界別。</div>
+    </div>
+
+    <!-- Q36 -->
+    <div class="card">
+        <div class="question">Q-(36) : 根據完善後的選舉制度，行政長官候選人須獲得選舉委員會不少於多少名委員聯合提名？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 150名</li>
+            <li>B 188名</li>
+            <li>C 200名</li>
+            <li>D 300名</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">根據完善後的選舉制度，行政長官候選人須獲得選舉委員會不少於188名委員的聯合提名，且每個界別的提名人數不少於15名。</div>
+    </div>
+
+    <!-- Q37 -->
+    <div class="card">
+        <div class="question">Q-(37) : 根據完善後的選舉制度，香港特別行政區立法會議員每屆共多少人？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 60人</li>
+            <li>B 70人</li>
+            <li>C 90人</li>
+            <li>D 100人</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">完善選舉制度後，立法會議員共90席，由三部分組成：選舉委員會界別40席、功能界別30席、地方選區20席（較舊制70席為多）。</div>
+    </div>
+
+    <!-- Q38 -->
+    <div class="card">
+        <div class="question">Q-(38) : 根據完善後的選舉制度，設立哪個委員會負責審查並確認選舉委員會委員候選人、行政長官候選人和立法會議員候選人的資格？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 獨立監察警方處理投訴委員會</li>
+            <li>B 香港特別行政區候選人資格審查委員會</li>
+            <li>C 選舉管理委員會</li>
+            <li>D 維護國家安全委員會</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">完善選舉制度後，設立候選人資格審查委員會（資審會），負責審查並確認選舉委員會委員候選人、行政長官候選人及立法會議員候選人的資格，其決定不受司法覆核。</div>
+    </div>
+
+    <!-- Q39 -->
+    <div class="card">
+        <div class="question">Q-(39) : 《中華人民共和國香港特別行政區維護國家安全法》於何時在香港特別行政區實施？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 1997年7月1日</li>
+            <li>B 2019年10月1日</li>
+            <li>C 2020年6月30日</li>
+            <li>D 2021年3月11日</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">根據2020年第136號法律公告，《中華人民共和國香港特別行政區維護國家安全法》由行政長官林鄭月娥公布，自2020年6月30日晚上11時起在香港特別行政區實施。</div>
+    </div>
+
+    <!-- Q40 -->
+    <div class="card">
+        <div class="question">Q-(40) : 根據《中華人民共和國香港特別行政區維護國家安全法》第十二條，香港特別行政區設立哪個機構負責維護國家安全事務並承擔主要責任？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 警務處國家安全處</li>
+            <li>B 維護國家安全委員會</li>
+            <li>C 律政司國家安全犯罪案件檢控部門</li>
+            <li>D 保安局</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第12條：香港特別行政區設立維護國家安全委員會，負責香港特別行政區維護國家安全事務，承擔維護國家安全的主要責任，並接受中央人民政府的監督和問責。</div>
+    </div>
+
+    <!-- Q41 -->
+    <div class="card">
+        <div class="question">Q-(41) : 根據《中華人民共和國香港特別行政區維護國家安全法》第十三條，香港特別行政區維護國家安全委員會的主席由誰擔任？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 政務司長</li>
+            <li>B 警務處處長</li>
+            <li>C 行政長官</li>
+            <li>D 保安局局長</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">國安法第13條：香港特別行政區維護國家安全委員會由行政長官擔任主席，成員包括政務司長、財政司長、律政司長、保安局局長、警務處處長、入境事務處處長、海關關長和行政長官辦公室主任等。</div>
+    </div>
+
+    <!-- Q42 -->
+    <div class="card">
+        <div class="question">Q-(42) : 根據《中華人民共和國香港特別行政區維護國家安全法》第二十條，任何人組織、策劃、實施將香港特別行政區從中華人民共和國分離出去，觸犯什麼罪行？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 分裂國家罪</li>
+            <li>B 顛覆國家政權罪</li>
+            <li>C 恐怖活動罪</li>
+            <li>D 勾結外國勢力罪</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">國安法第20條：任何人組織、策劃、實施或參與實施分裂國家、破壞國家統一行為，即觸犯分裂國家罪，不論是否使用武力或以武力相威脅。首要分子或罪行重大者，可判處無期徒刑或十年以上有期徒刑。</div>
+    </div>
+
+    <!-- Q43 -->
+    <div class="card">
+        <div class="question">Q-(43) : 根據《中華人民共和國香港特別行政區維護國家安全法》第二十二條，以武力、威脅使用武力等非法手段推翻中華人民共和國中央政權機關，屬於什麼罪行？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 分裂國家罪</li>
+            <li>B 顛覆國家政權罪</li>
+            <li>C 恐怖活動罪</li>
+            <li>D 勾結外國勢力罪</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第22條：任何人以武力、威脅使用武力或其他非法手段旨在推翻中華人民共和國中央政權機關或香港特別行政區政權機關，即屬顛覆國家政權罪。</div>
+    </div>
+
+    <!-- Q44 -->
+    <div class="card">
+        <div class="question">Q-(44) : 根據《中華人民共和國香港特別行政區維護國家安全法》第二十四條，為脅迫中央人民政府，破壞交通工具、電力設備等造成嚴重社會危害，觸犯什麼罪行？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 分裂國家罪</li>
+            <li>B 顛覆國家政權罪</li>
+            <li>C 恐怖活動罪</li>
+            <li>D 勾結外國勢力罪</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">國安法第24條：為脅迫中央人民政府、香港特別行政區政府或者國際組織，組織、策劃、實施破壞交通工具、電力設備、燃氣設備等造成嚴重社會危害的恐怖活動，即屬恐怖活動罪。</div>
+    </div>
+
+    <!-- Q45 -->
+    <div class="card">
+        <div class="question">Q-(45) : 根據《中華人民共和國香港特別行政區維護國家安全法》第二十九條，請求外國或者境外機構對香港特別行政區或者中華人民共和國進行制裁，觸犯什麼罪行？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 分裂國家罪</li>
+            <li>B 顛覆國家政權罪</li>
+            <li>C 恐怖活動罪</li>
+            <li>D 勾結外國或者境外勢力危害國家安全罪</li>
+        </ul>
+        <div class="answer">答案: D</div>
+        <div class="explanation">國安法第29條：請求外國或境外機構對香港特別行政區或中華人民共和國進行制裁、封鎖或採取其他敵對行動，即觸犯勾結外國或者境外勢力危害國家安全罪。</div>
+    </div>
+
+    <!-- Q46 -->
+    <div class="card">
+        <div class="question">Q-(46) : 根據《中華人民共和國香港特別行政區維護國家安全法》第三十五條，任何人經法院判決犯危害國家安全罪行的，將會有何後果？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 罰款100萬</li>
+            <li>B 即喪失作為候選人參加立法會、區議會選舉或出任公職的資格</li>
+            <li>C 必須離開香港</li>
+            <li>D 褫奪香港永久性居民身份</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第35條：任何人經法院判決犯危害國家安全罪行的，即喪失作為候選人參加立法會、區議會選舉或出任任何公職的資格；正在任職的立法會議員、政府官員、法官等即時喪失職務。</div>
+    </div>
+
+    <!-- Q47 -->
+    <div class="card">
+        <div class="question">Q-(47) : 根據《中華人民共和國香港特別行政區維護國家安全法》第四十一條，香港特別行政區管轄的危害國家安全犯罪案件的審判循什麼程序進行？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 簡易程序</li>
+            <li>B 公訴程序</li>
+            <li>C 閉門程序</li>
+            <li>D 仲裁程序</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第41條：香港特別行政區管轄的危害國家安全犯罪案件的審判循公訴程序進行。審判應公開進行，但涉及國家秘密、公共秩序等情形不宜公開審理的，可禁止新聞界和公眾旁聽，但判決結果應公開宣布。</div>
+    </div>
+
+    <!-- Q48 -->
+    <div class="card">
+        <div class="question">Q-(48) : 根據《中華人民共和國香港特別行政區維護國家安全法》第四十四條，負責處理危害國家安全犯罪案件的法官由誰指定？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 終審法院首席法官</li>
+            <li>B 律政司長</li>
+            <li>C 行政長官</li>
+            <li>D 立法會主席</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">國安法第44條：行政長官應從裁判官、區域法院法官、高等法院法官、上訴法庭法官及終審法院法官中指定若干名法官，負責處理危害國家安全犯罪案件，任期一年。</div>
+    </div>
+
+    <!-- Q49 -->
+    <div class="card">
+        <div class="question">Q-(49) : 根據《中華人民共和國香港特別行政區維護國家安全法》第四十八條，駐香港特別行政區維護國家安全公署由哪個機構設立？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 全國人民代表大會</li>
+            <li>B 中央人民政府</li>
+            <li>C 國防部</li>
+            <li>D 香港特別行政區政府</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第48條：中央人民政府在香港特別行政區設立維護國家安全公署（國安公署），依法履行維護國家安全職責，行使相關權力。公署人員由中央人民政府維護國家安全的有關機關聯合派出。</div>
+    </div>
+
+    <!-- Q50 -->
+    <div class="card">
+        <div class="question">Q-(50) : 根據《中華人民共和國香港特別行政區維護國家安全法》第六十五條，該法的解釋權屬於哪個機構？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 香港特別行政區終審法院</li>
+            <li>B 全國人民代表大會常務委員會</li>
+            <li>C 中央人民政府</li>
+            <li>D 香港特別行政區律政司</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第65條：本法的解釋權屬於全國人民代表大會常務委員會。這與基本法第158條的解釋權歸屬一致，均由全國人大常委會掌握最終解釋權。</div>
+    </div>
+	
+	    <!-- Q51 -->
+    <div class="card">
+        <div class="question">Q-(51) : 根據《中華人民共和國香港特別行政區基本法》第一條，香港特別行政區是中華人民共和國___________的部分。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 不可分離</li>
+            <li>B 高度自治</li>
+            <li>C 獨立運作</li>
+            <li>D 附屬管轄</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第1條：香港特別行政區是中華人民共和國不可分離的部分。這是基本法的根本性條款，也是國安法第2條所援引的核心規定。</div>
+    </div>
+
+    <!-- Q52 -->
+    <div class="card">
+        <div class="question">Q-(52) : 根據《中華人民共和國香港特別行政區基本法》第二條，全國人民代表大會授權香港特別行政區依照本法的規定實行高度自治，享有行政管理權、立法權、獨立的司法權和甚麼權力？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 外交權</li>
+            <li>B 終審權</li>
+            <li>C 防務權</li>
+            <li>D 釋法權</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第2條：全國人民代表大會授權香港特別行政區依照本法的規定實行高度自治，享有行政管理權、立法權、獨立的司法權和終審權。防務權和外交權屬於中央人民政府，並非授予香港。</div>
+    </div>
+
+    <!-- Q53 -->
+    <div class="card">
+        <div class="question">Q-(53) : 根據《中華人民共和國香港特別行政區基本法》第九條，香港特別行政區的行政機關、立法機關和司法機關，除使用中文外，還可使用甚麼語文作為正式語文？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 法文</li>
+            <li>B 葡萄牙文</li>
+            <li>C 英文</li>
+            <li>D 國際通用語</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第9條：香港特別行政區的行政機關、立法機關和司法機關，除使用中文外，還可使用英文，英文也是正式語文。</div>
+    </div>
+
+    <!-- Q54 -->
+    <div class="card">
+        <div class="question">Q-(54) : 根據《中華人民共和國香港特別行政區基本法》第十條，香港特別行政區的區旗是甚麼圖案的旗幟？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 兩顆星的紫荊花紅旗</li>
+            <li>B 五星花蕊的紫荊花紅旗</li>
+            <li>C 五星花蕊的紫荊花藍旗</li>
+            <li>D 中間配有五星的白旗</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第10條：香港特別行政區除懸掛中華人民共和國國旗和國徽外，還可使用香港特別行政區區旗和區徽。區旗是五星花蕊的紫荊花紅旗（非藍旗）。</div>
+    </div>
+
+    <!-- Q55 -->
+    <div class="card">
+        <div class="question">Q-(55) : 根據《中華人民共和國香港特別行政區基本法》第十一條，香港特別行政區立法機關制定的任何法律，均不得同甚麼相抵觸？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 英國普通法</li>
+            <li>B 中華人民共和國香港特別行政區基本法</li>
+            <li>C 香港原有法律</li>
+            <li>D 國際人權公約</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第11條：香港特別行政區立法機關制定的任何法律，均不得同本法相抵觸。香港特別行政區的制度和政策，均以本法的規定為依據。</div>
+    </div>
+
+    <!-- Q56 -->
+    <div class="card">
+        <div class="question">Q-(56) : 根據《中華人民共和國香港特別行政區基本法》第十五條，香港特別行政區行政長官和行政機關的主要官員由誰任命？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 全國人民代表大會</li>
+            <li>B 中央人民政府</li>
+            <li>C 國務院總理</li>
+            <li>D 香港特別行政區立法會</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第15條：中央人民政府依照本法第四章的規定任命香港特別行政區行政長官和行政機關的主要官員。行政長官由選舉委員會選出後，報中央人民政府任命。</div>
+    </div>
+
+    <!-- Q57 -->
+    <div class="card">
+        <div class="question">Q-(57) : 根據《中華人民共和國香港特別行政區基本法》第十九條，香港特別行政區法院對甚麼行為無管轄權？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 商業貿易糾紛</li>
+            <li>B 嚴重刑事犯罪</li>
+            <li>C 國防、外交等國家行為</li>
+            <li>D 行政部門的越權行為</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第19條：香港特別行政區法院對國防、外交等國家行為無管轄權。法院在審理案件中遇有涉及國防、外交等事實問題，應取得行政長官就該等問題發出的證明書，上述證明書對法院有約束力。</div>
+    </div>
+
+    <!-- Q58 -->
+    <div class="card">
+        <div class="question">Q-(58) : 根據《中華人民共和國香港特別行政區基本法》第二十一條，香港特別行政區居民中的中國公民依法參與甚麼事務的管理？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 國家事務</li>
+            <li>B 英國海外事務</li>
+            <li>C 聯合國國際事務</li>
+            <li>D 駐外領事事務</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第21條：香港特別行政區居民中的中國公民依法參與國家事務的管理，根據全國人民代表大會確定的選舉辦法，通過在香港選出的全國人民代表大會代表參與國家最高權力機關的工作。</div>
+    </div>
+
+    <!-- Q59 -->
+    <div class="card">
+        <div class="question">Q-(59) : 根據《中華人民共和國香港特別行政區基本法》第二十四條，香港特別行政區居民分為永久性居民和___________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 暫住居民</li>
+            <li>B 外籍勞工</li>
+            <li>C 非永久性居民</li>
+            <li>D 新移民</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第24條：香港特別行政區居民分為永久性居民和非永久性居民。永久性居民享有居留權，可以依法取得香港特別行政區居民身份證。</div>
+    </div>
+
+    <!-- Q60 -->
+    <div class="card">
+        <div class="question">Q-(60) : 根據《中華人民共和國香港特別行政區基本法》第二十六條，香港特別行政區哪類人士依法享有選舉權和被選舉權？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 所有香港居民</li>
+            <li>B 永久性居民</li>
+            <li>C 在港居住滿一年的外籍人士</li>
+            <li>D 年滿十八歲的任何人</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第26條：香港特別行政區永久性居民依法享有選舉權和被選舉權。注意是永久性居民，而非所有香港居民或年滿十八歲人士。</div>
+    </div>
+
+    <!-- Q61 -->
+    <div class="card">
+        <div class="question">Q-(61) : 根據《中華人民共和國香港特別行政區基本法》第二十八條，香港居民的人身自由不受侵犯。香港居民不受___________逮捕、拘留、監禁。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 任何形式</li>
+            <li>B 任意或非法</li>
+            <li>C 警方的</li>
+            <li>D 法庭裁決的</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第28條：香港居民的人身自由不受侵犯。香港居民不受任意或非法逮捕、拘留、監禁。禁止任意或非法搜查居民的身體、剝奪或限制居民的人身自由。</div>
+    </div>
+
+    <!-- Q62 -->
+    <div class="card">
+        <div class="question">Q-(62) : 根據《中華人民共和國香港特別行政區基本法》第三十一條，香港居民有在香港特別行政區境內遷徙的自由，有旅行和___________的自由。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 逃避法律追究</li>
+            <li>B 出入境</li>
+            <li>C 拒絕服兵役</li>
+            <li>D 擅闖政府禁區</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第31條：香港居民有在香港特別行政區境內遷徙的自由，有旅行和出入境的自由；有移居其他國家和地區的自由。</div>
+    </div>
+
+    <!-- Q63 -->
+    <div class="card">
+        <div class="question">Q-(63) : 根據《中華人民共和國香港特別行政區基本法》第三十二條，香港居民有信仰的自由，有甚麼宗教自由？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 公開傳教和舉行、參加宗教活動</li>
+            <li>B 強制他人信仰特定宗教</li>
+            <li>C 設立獨立的宗教法庭代替世俗法庭</li>
+            <li>D 以外國勢力名義干預本地宗教</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第32條：香港居民有信仰的自由，有公開傳教和舉行、參加宗教活動的自由。不得強制他人信仰，亦不得以宗教名義干涉世俗法律。</div>
+    </div>
+
+    <!-- Q64 -->
+    <div class="card">
+        <div class="question">Q-(64) : 根據《中華人民共和國香港特別行政區基本法》第三十九條，哪兩項國際公約適用於香港的有關規定繼續有效，並通過香港特別行政區的法律予以實施？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 《公民權利和政治權利國際公約》、《經濟、社會與文化權利的國際公約》</li>
+            <li>B 《日內瓦公約》、《維也納公約》</li>
+            <li>C 《兒童權利公約》、《消除一切形式種族歧視國際公約》</li>
+            <li>D 《聯合國憲章》、《巴黎協定》</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第39條：《公民權利和政治權利國際公約》及《經濟、社會與文化權利的國際公約》適用於香港的有關規定繼續有效，並通過香港特別行政區的法律予以實施。</div>
+    </div>
+
+    <!-- Q65 -->
+    <div class="card">
+        <div class="question">Q-(65) : 根據《中華人民共和國香港特別行政區基本法》第四十條，哪一類人士的合法傳統權益受香港特別行政區的保護？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 外籍家庭傭工</li>
+            <li>B 「新界」原居民</li>
+            <li>C 跨國企業投資者</li>
+            <li>D 專才引進計劃人士</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第40條：「新界」原居民的合法傳統權益受香港特別行政區的保護，包括丁屋政策等傳統習俗和繼承權。</div>
+    </div>
+
+    <!-- Q66 -->
+    <div class="card">
+        <div class="question">Q-(66) : 根據《中華人民共和國香港特別行政區基本法》第四十三條，香港特別行政區行政長官依照本法的規定對哪兩個機構/地區負責？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 全國人民代表大會和香港立法會</li>
+            <li>B 中央人民政府和香港特別行政區</li>
+            <li>C 國家主席和香港市民</li>
+            <li>D 國務院和香港終審法院</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第43條：香港特別行政區行政長官依照本法的規定對中央人民政府和香港特別行政區負責，兩者缺一不可。</div>
+    </div>
+
+    <!-- Q67 -->
+    <div class="card">
+        <div class="question">Q-(67) : 根據《中華人民共和國香港特別行政區基本法》第四十四條，香港特別行政區行政長官必須年滿多少周歲？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 三十周歲</li>
+            <li>B 三十五周歲</li>
+            <li>C 四十周歲</li>
+            <li>D 四十五周歲</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第44條：香港特別行政區行政長官由年滿四十周歲，在香港通常居住連續滿二十年並在外國無居留權的香港特別行政區永久性居民中的中國公民擔任。</div>
+    </div>
+
+    <!-- Q68 -->
+    <div class="card">
+        <div class="question">Q-(68) : 根據《中華人民共和國香港特別行政區基本法》第四十七條，行政長官就任時應向誰申報財產，記錄在案？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 廉政專員</li>
+            <li>B 立法會主席</li>
+            <li>C 香港特別行政區終審法院首席法官</li>
+            <li>D 國家監察委員會</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第47條：行政長官必須廉潔奉公、盡忠職守。行政長官就任時應向香港特別行政區終審法院首席法官申報財產，記錄在案。</div>
+    </div>
+
+    <!-- Q69 -->
+    <div class="card">
+        <div class="question">Q-(69) : 根據《中華人民共和國香港特別行政區基本法》第四十九條，行政長官如認為立法會通過的法案不符合香港特別行政區的整體利益，可在幾個月內將法案發回立法會重議？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 一個月</li>
+            <li>B 兩個月</li>
+            <li>C 三個月</li>
+            <li>D 六個月</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第49條：行政長官如認為立法會通過的法案不符合香港特別行政區整體利益，可在三個月內將法案發回立法會重議。立法會若以全體議員三分之二多數再次通過，行政長官須簽署公布或解散立法會。</div>
+    </div>
+
+    <!-- Q70 -->
+    <div class="card">
+        <div class="question">Q-(70) : 根據《中華人民共和國香港特別行政區基本法》第五十條，行政長官在解散立法會前，須徵詢哪個機構的意見？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 行政會議</li>
+            <li>B 終審法院</li>
+            <li>C 律政司</li>
+            <li>D 選舉委員會</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第50條：行政長官如認為立法會通過的法案仍不符合整體利益，在徵詢行政會議意見後，可解散立法會。行政長官在其一任任期內只可解散立法會一次。</div>
+    </div>
+
+    <!-- Q71 -->
+    <div class="card">
+        <div class="question">Q-(71) : 根據《中華人民共和國香港特別行政區基本法》第五十四條，香港特別行政區設立哪個機構來協助行政長官決策？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 立法會</li>
+            <li>B 行政會議</li>
+            <li>C 政策創新與統籌辦事處</li>
+            <li>D 區議會</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第54條：香港特別行政區行政會議是協助行政長官決策的機構。行政長官在作出重要決策、向立法會提交法案、制定附屬法規和解散立法會前，須徵詢行政會議的意見。</div>
+    </div>
+
+    <!-- Q72 -->
+    <div class="card">
+        <div class="question">Q-(72) : 根據《中華人民共和國香港特別行政區基本法》第六十條，香港特別行政區政府設政務司、財政司、律政司和各___________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 部、委、辦</li>
+            <li>B 局、處、署</li>
+            <li>C 廳、局、科</li>
+            <li>D 組、室、處</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第60條：香港特別行政區政府設政務司、財政司、律政司和各局、處、署。</div>
+    </div>
+
+    <!-- Q73 -->
+    <div class="card">
+        <div class="question">Q-(73) : 根據《中華人民共和國香港特別行政區基本法》第六十一條，香港特別行政區的主要官員由在香港通常居住連續滿多少年的香港特別行政區永久性居民中的中國公民擔任？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 七年</li>
+            <li>B 十年</li>
+            <li>C 十五年</li>
+            <li>D 二十年</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第61條：香港特別行政區的主要官員由在香港通常居住連續滿十五年的香港特別行政區永久性居民中的中國公民擔任。注意是十五年，而非行政長官要求的二十年。</div>
+    </div>
+
+    <!-- Q74 -->
+    <div class="card">
+        <div class="question">Q-(74) : 根據《中華人民共和國香港特別行政區基本法》第六十四條，香港特別行政區政府必須遵守法律，對誰負責？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 中央人民政府</li>
+            <li>B 行政長官</li>
+            <li>C 香港特別行政區立法會</li>
+            <li>D 香港市民</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第64條：香港特別行政區政府必須遵守法律，對香港特別行政區立法會負責，包括：執行立法會通過並已生效的法律；定期向立法會作施政報告；答覆立法會議員的質詢；徵稅和公共開支須經立法會批准。</div>
+    </div>
+
+    <!-- Q75 -->
+    <div class="card">
+        <div class="question">Q-(75) : 根據《中華人民共和國香港特別行政區基本法》第六十七條，非中國籍和在外國有居留權的香港特別行政區永久性居民也可以當選為立法會議員，但其所佔比例不得超過立法會全體議員的百分之幾？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 十</li>
+            <li>B 二十</li>
+            <li>C 三十</li>
+            <li>D 四十</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第67條：非中國籍的香港特別行政區永久性居民和在外國有居留權的香港特別行政區永久性居民，也可以當選為立法會議員，其所佔比例不得超過立法會全體議員的百分之二十。</div>
+    </div>
+
+    <!-- Q76 -->
+    <div class="card">
+        <div class="question">Q-(76) : 根據《中華人民共和國香港特別行政區基本法》第七十一條，香港特別行政區立法會主席由誰互選產生？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 選舉委員會委員</li>
+            <li>B 立法會議員</li>
+            <li>C 行政長官與行政會議成員</li>
+            <li>D 司法人員推薦委員會</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第71條：香港特別行政區立法會主席由立法會議員互選產生。主席須符合第67條規定，並在外國無居留權。</div>
+    </div>
+
+    <!-- Q77 -->
+    <div class="card">
+        <div class="question">Q-(77) : 根據《中華人民共和國香港特別行政區基本法》第七十三條，批准稅收和公共開支是哪個機構的職權？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 財政司</li>
+            <li>B 審計署</li>
+            <li>C 香港特別行政區立法會</li>
+            <li>D 行政長官辦公室</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第73條：香港特別行政區立法會的職權包括：根據政府的提案，審核、通過財政預算；批准稅收和公共開支。立法會是批准稅收和公共開支的機構。</div>
+    </div>
+
+    <!-- Q78 -->
+    <div class="card">
+        <div class="question">Q-(78) : 根據《中華人民共和國香港特別行政區基本法》第八十五條，香港特別行政區法院獨立進行審判，不受任何干涉，司法人員履行審判職責的行為___________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 須向行政長官彙報</li>
+            <li>B 受立法會嚴格質詢</li>
+            <li>C 不受法律追究</li>
+            <li>D 受律政司監督</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第85條：香港特別行政區法院獨立進行審判，不受任何干涉，司法人員履行審判職責的行為不受法律追究，保障司法獨立。</div>
+    </div>
+
+    <!-- Q79 -->
+    <div class="card">
+        <div class="question">Q-(79) : 根據《中華人民共和國香港特別行政區基本法》第九十條，香港特別行政區終審法院和高等法院的首席法官，應由在外國無居留權的香港特別行政區永久性居民中的___________擔任。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 英聯邦法官</li>
+            <li>B 任何國籍的資深大律師</li>
+            <li>C 中國公民</li>
+            <li>D 香港本地出生人士</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第90條：香港特別行政區終審法院和高等法院的首席法官，應由在外國無居留權的香港特別行政區永久性居民中的中國公民擔任。</div>
+    </div>
+
+    <!-- Q80 -->
+    <div class="card">
+        <div class="question">Q-(80) : 根據《中華人民共和國香港特別行政區基本法》第一百零五條，香港特別行政區依法保護私人和法人財產的___________權利。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 取得、使用、處置和繼承</li>
+            <li>B 非法轉移海外</li>
+            <li>C 逃避繳稅</li>
+            <li>D 免受任何形式徵用</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第105條：香港特別行政區依法保護私人和法人財產的取得、使用、處置和繼承的權利，以及依法徵用私人和法人財產時被徵用財產的所有人得到補償的權利。</div>
+    </div>
+
+    <!-- Q81 -->
+    <div class="card">
+        <div class="question">Q-(81) : 根據《中華人民共和國香港特別行政區基本法》第一百零七條，香港特別行政區的財政預算以什麼為原則？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 大量發行債券</li>
+            <li>B 量入為出</li>
+            <li>C 擴張性財政</li>
+            <li>D 實行高稅收政策</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第107條：香港特別行政區的財政預算以量入為出為原則，力求收支平衡，避免赤字，並與本地生產總值的增長率相適應。</div>
+    </div>
+
+    <!-- Q82 -->
+    <div class="card">
+        <div class="question">Q-(82) : 根據《中華人民共和國香港特別行政區基本法》第一百零九條，香港特別行政區政府提供適當的經濟和法律環境，以保持香港的___________地位。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 國際金融中心</li>
+            <li>B 重工業基地</li>
+            <li>C 農業發展樞紐</li>
+            <li>D 國際政治中心</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">基本法第109條：香港特別行政區政府提供適當的經濟和法律環境，以保持香港的國際金融中心地位。</div>
+    </div>
+
+    <!-- Q83 -->
+    <div class="card">
+        <div class="question">Q-(83) : 根據《中華人民共和國香港特別行政區基本法》第一百一十四條，香港特別行政區保持自由港地位，除法律另有規定外，不徵收什麼？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 薪俸稅</li>
+            <li>B 商業登記費</li>
+            <li>C 關稅</li>
+            <li>D 差餉</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第114條：香港特別行政區保持自由港地位，除法律另有規定外，不徵收關稅。香港作為自由港，商品進出口毋須繳交關稅。</div>
+    </div>
+
+    <!-- Q84 -->
+    <div class="card">
+        <div class="question">Q-(84) : 根據《中華人民共和國香港特別行政區基本法》第一百一十六條，香港特別行政區為單獨的___________地區。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 司法獨立</li>
+            <li>B 外交實體</li>
+            <li>C 關稅</li>
+            <li>D 防務自主</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">基本法第116條：香港特別行政區為單獨的關稅地區，可以「中國香港」的名義參加《關稅和貿易總協定》、關於國際貿易的協定等國際組織和國際貿易協議。</div>
+    </div>
+
+    <!-- Q85 -->
+    <div class="card">
+        <div class="question">Q-(85) : 根據《中華人民共和國香港特別行政區基本法》第一百三十六條，香港特別行政區政府在原有教育制度的基礎上，自行制定有關教育的發展和改進的政策，這包括以下哪一項？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 國防教育指引</li>
+            <li>B 教學語言</li>
+            <li>C 全國高等學校統一招生政策</li>
+            <li>D 全國性外交課程</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">基本法第136條：香港特別行政區政府在原有教育制度的基礎上，自行制定有關教育的發展和改進的政策，包括教育體制和管理、教學語言、經費分配、考試制度、學位制度和承認學歷等政策。</div>
+    </div>
+
+    <!-- Q86 -->
+    <div class="card">
+        <div class="question">Q-(86) : 根據《中華人民共和國香港特別行政區維護國家安全法》第三條，香港特別行政區負有維護國家安全的___________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 社會責任</li>
+            <li>B 憲制責任</li>
+            <li>C 國際義務</li>
+            <li>D 經濟任務</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第3條：香港特別行政區負有維護國家安全的憲制責任，應當履行維護國家安全的職責。中央人民政府對香港有關的國家安全事務負有根本責任。</div>
+    </div>
+
+    <!-- Q87 -->
+    <div class="card">
+        <div class="question">Q-(87) : 根據《中華人民共和國香港特別行政區維護國家安全法》第四條，香港特別行政區維護國家安全應當尊重和保障___________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 資本無限制流動</li>
+            <li>B 人權</li>
+            <li>C 外國勢力干預</li>
+            <li>D 政治人物的特權</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第4條：香港特別行政區維護國家安全應當尊重和保障人權，依法保護香港居民根據基本法及《公民權利和政治權利國際公約》、《經濟、社會與文化權利的國際公約》享有的各項權利和自由。</div>
+    </div>
+
+    <!-- Q88 -->
+    <div class="card">
+        <div class="question">Q-(88) : 根據《中華人民共和國香港特別行政區維護國家安全法》第五條，防範、制止和懲治危害國家安全犯罪，應當堅持___________原則。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 有罪推定</li>
+            <li>B 法治</li>
+            <li>C 寧枉勿縱</li>
+            <li>D 政治掛帥</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第5條：防範、制止和懲治危害國家安全犯罪，應當堅持法治原則。法律規定為犯罪行為的，依照法律定罪處刑；法律沒有規定為犯罪行為的，不得定罪處刑。任何人未經司法機關判罪之前均假定無罪。</div>
+    </div>
+
+    <!-- Q89 -->
+    <div class="card">
+        <div class="question">Q-(89) : 根據《中華人民共和國香港特別行政區維護國家安全法》第六條，維護國家主權、統一和領土完整是包括___________在內的全中國人民的共同義務。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 居港外國人</li>
+            <li>B 香港同胞</li>
+            <li>C 外國留學生</li>
+            <li>D 駐港跨國企業</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第6條：維護國家主權、統一和領土完整是包括香港同胞在內的全中國人民的共同義務。香港特別行政區居民在參選或就任公職時應當依法宣誓擁護基本法，效忠香港特別行政區。</div>
+    </div>
+
+    <!-- Q90 -->
+    <div class="card">
+        <div class="question">Q-(90) : 根據《中華人民共和國香港特別行政區維護國家安全法》第八條，香港特別行政區哪兩個機關應當切實執行本法和現行法律，有效維護國家安全？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 行政機關、立法機關</li>
+            <li>B 執法、司法機關</li>
+            <li>C 審計署、廉政公署</li>
+            <li>D 區議會、鄉議局</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第8條：香港特別行政區執法、司法機關應當切實執行本法和香港特別行政區現行法律有關防範、制止和懲治危害國家安全行為和活動的規定，有效維護國家安全。</div>
+    </div>
+
+    <!-- Q91 -->
+    <div class="card">
+        <div class="question">Q-(91) : 根據《中華人民共和國香港特別行政區維護國家安全法》第九條，香港特別行政區政府應當採取必要措施，對哪些涉及國家安全的事宜加強宣傳、指導、監督和管理？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 學校、社會團體、媒體、網絡</li>
+            <li>B 銀行、保險業、金融市場</li>
+            <li>C 醫療機構、福利署、安老院舍</li>
+            <li>D 交通運輸、基建工程、房地產</li>
+        </ul>
+        <div class="answer">答案: A</div>
+        <div class="explanation">國安法第9條：對學校、社會團體、媒體、網絡等涉及國家安全的事宜，香港特別行政區政府應當採取必要措施，加強宣傳、指導、監督和管理。</div>
+    </div>
+
+    <!-- Q92 -->
+    <div class="card">
+        <div class="question">Q-(92) : 根據《中華人民共和國香港特別行政區維護國家安全法》第十一條，香港特別行政區行政長官應當就香港特別行政區維護國家安全事務向誰負責？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 全國人民代表大會</li>
+            <li>B 中央人民政府</li>
+            <li>C 聯合國安全理事會</li>
+            <li>D 香港特別行政區立法會</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第11條：香港特別行政區行政長官應當就香港特別行政區維護國家安全事務向中央人民政府負責，並就香港特別行政區履行維護國家安全職責的情況提交年度報告。</div>
+    </div>
+
+    <!-- Q93 -->
+    <div class="card">
+        <div class="question">Q-(93) : 根據《中華人民共和國香港特別行政區維護國家安全法》第十四條，香港特別行政區維護國家安全委員會作出的決定___________。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 必須向全社會公開</li>
+            <li>B 可由立法會進行覆核</li>
+            <li>C 不受司法覆核</li>
+            <li>D 需經過高等法院批准生效</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">國安法第14條：香港特別行政區維護國家安全委員會作出的決定不受司法覆核。委員會的工作信息不予公開，不受任何機構、組織和個人干涉。</div>
+    </div>
+
+    <!-- Q94 -->
+    <div class="card">
+        <div class="question">Q-(94) : 根據《中華人民共和國香港特別行政區維護國家安全法》第十六條，香港特別行政區政府哪個部門設立維護國家安全的部門，配備執法力量？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 懲教署</li>
+            <li>B 入境事務處</li>
+            <li>C 警務處</li>
+            <li>D 香港海關</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">國安法第16條：香港特別行政區政府警務處設立維護國家安全的部門，配備執法力量。警務處維護國家安全部門負責人由行政長官任命。</div>
+    </div>
+
+    <!-- Q95 -->
+    <div class="card">
+        <div class="question">Q-(95) : 根據《中華人民共和國香港特別行政區維護國家安全法》第十八條，香港特別行政區律政司設立專門的___________，負責危害國家安全犯罪案件的檢控工作。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 重大案件檢控科</li>
+            <li>B 國家安全犯罪案件檢控部門</li>
+            <li>C 反恐與情報檢控署</li>
+            <li>D 跨國犯罪檢控處</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第18條：香港特別行政區律政司設立專門的國家安全犯罪案件檢控部門，負責危害國家安全犯罪案件的檢控工作和其他相關法律事務。</div>
+    </div>
+
+    <!-- Q96 -->
+    <div class="card">
+        <div class="question">Q-(96) : 根據《中華人民共和國香港特別行政區維護國家安全法》第四十二條，對犯罪嫌疑人、被告人，除非法官有充足理由相信其___________，不得准予保釋。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 能夠繳納高額保釋金</li>
+            <li>B 不會繼續實施危害國家安全行為</li>
+            <li>C 在香港有固定居所和正當職業</li>
+            <li>D 不會潛逃海外</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第42條：對犯罪嫌疑人、被告人，除非法官有充足理由相信其不會繼續實施危害國家安全行為的，不得准予保釋。此為特殊的「反向舉證」要求，與普通刑事案件的保釋標準不同。</div>
+    </div>
+
+    <!-- Q97 -->
+    <div class="card">
+        <div class="question">Q-(97) : 根據《中華人民共和國香港特別行政區維護國家安全法》第四十四條，負責處理危害國家安全犯罪案件的法官（指定法官），其指定任期為多少年？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 半年</li>
+            <li>B 一年</li>
+            <li>C 兩年</li>
+            <li>D 三年</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第44條：行政長官應從各級法院法官中指定若干名法官，負責處理危害國家安全犯罪案件。上述指定法官任期一年。</div>
+    </div>
+
+    <!-- Q98 -->
+    <div class="card">
+        <div class="question">Q-(98) : 根據《中華人民共和國香港特別行政區維護國家安全法》第四十八條，中央人民政府在香港特別行政區設立哪個機構依法履行維護國家安全職責？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 駐港部隊司令部</li>
+            <li>B 外交部駐港特派員公署</li>
+            <li>C 維護國家安全公署</li>
+            <li>D 中央政府聯絡辦公室（中聯辦）</li>
+        </ul>
+        <div class="answer">答案: C</div>
+        <div class="explanation">國安法第48條：中央人民政府在香港特別行政區設立維護國家安全公署（國安公署）。公署依法履行維護國家安全職責，其執行職務的行為不受香港特別行政區管轄。</div>
+    </div>
+
+    <!-- Q99 -->
+    <div class="card">
+        <div class="question">Q-(99) : 根據《中華人民共和國香港特別行政區維護國家安全法》第六十二條，香港特別行政區本地法律規定與本法不一致的，適用___________規定。<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 本地法律</li>
+            <li>B 本法</li>
+            <li>C 兩者皆可</li>
+            <li>D 國際法約定</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第62條：香港特別行政區本地法律規定與本法不一致的，適用本法規定。國安法具有凌駕本地法律的效力。</div>
+    </div>
+
+    <!-- Q100 -->
+    <div class="card">
+        <div class="question">Q-(100) : 根據《中華人民共和國香港特別行政區維護國家安全法》第六十五條，本法的解釋權屬於哪個機構？<span class="citation"></span></div>
+        <ul class="options">
+            <li>A 香港特別行政區終審法院</li>
+            <li>B 全國人民代表大會常務委員會</li>
+            <li>C 香港特別行政區維護國家安全委員會</li>
+            <li>D 中央人民政府國務院</li>
+        </ul>
+        <div class="answer">答案: B</div>
+        <div class="explanation">國安法第65條：本法的解釋權屬於全國人民代表大會常務委員會。與基本法第158條一樣，香港國安法的最終解釋權亦歸全國人大常委會，而非香港法院。</div>
+    </div>
+
+</div>
+
+<script>
+    document.querySelectorAll('.card').forEach(function(card) {
+        var answerDiv = card.querySelector('.answer');
+        var options = card.querySelectorAll('.options li');
+        // Extract correct answer letter, e.g. "答案: C" → "C"
+        var correctLetter = answerDiv.textContent.replace('答案:', '').trim();
+
+        options.forEach(function(li) {
+            li.addEventListener('click', function() {
+                // Ignore if already answered
+                if (li.classList.contains('disabled')) return;
+
+                // Get selected letter (first char of li text, e.g. "A")
+                var selectedLetter = li.textContent.trim().charAt(0);
+
+                // Disable all options
+                options.forEach(function(opt) {
+                    opt.classList.add('disabled');
+                });
+
+                // Mark selected as correct or wrong
+                if (selectedLetter === correctLetter) {
+                    li.classList.add('correct');
+                } else {
+                    li.classList.add('wrong');
+                    // Also highlight the correct answer
+                    options.forEach(function(opt) {
+                        if (opt.textContent.trim().charAt(0) === correctLetter) {
+                            opt.classList.add('correct');
+                        }
+                    });
+                }
+
+                // Reveal the answer and explanation
+                answerDiv.style.display = 'block';
+                var expDiv = card.querySelector('.explanation');
+                if (expDiv) expDiv.style.display = 'block';
+            });
+        });
+    });
+</script>
+</body>
+</html>
